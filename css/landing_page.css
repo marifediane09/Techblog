@@ -1,0 +1,59 @@
+/*css for landing_screen.php*/
+    .navbar-brand {
+      font-size: 25px;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .nav-link {
+      color: #000;
+      font-size: 17px;
+      margin: 0px 20px;
+    }
+
+    #main {
+      background-image: url(https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-size: cover;
+    }
+
+    h1 {
+      color: #fff;
+    }
+
+    h2, h4{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 30px;
+      font-style: strong;
+    }
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h4 {
+      font-size: 20px;
+    }
+
+    .btn-primary {
+      border-radius: 100px;
+      padding: 6px 25px;
+      color: #fff;
+      font-size: 17px;
+    }
+
+    .btt{
+      text-decoration: none;
+    }
+
+    .card-body{
+      background-color: #eaf0f6;
+    }
+    
+    #popular_link a, #categories a{
+      text-decoration: none;
+    }
+
+    .card:hover{
+      transform: scale(1.02);
+      box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }

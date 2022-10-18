@@ -1,0 +1,47 @@
+/*css for login_screen.php*/
+	body {
+      font-family: 'Raleway', sans-serif;
+      background-image: url(https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-size: cover;
+      color: #000;
+    }
+
+    #login_form {
+      background-color: #fff;
+      box-shadow: 0px 5px 10px #000;
+      display: block;
+      margin:0px auto;
+      padding:30px;
+      border-radius: 10px;
+      width: 400px;
+      height: 500px;
+    }
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      color: #0d6efd;
+      font-weight: 600;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      border-radius: 100px;
+      padding: 6px 25px;
+    }
+
+    #note {
+    	font-weight: bold;
+    }
+
+    .forgot_pass {
+    	text-align: right;
+    }
+
+    .alertmsg {
+      font-weight: bold;
+      color: #ff0000;
+    }

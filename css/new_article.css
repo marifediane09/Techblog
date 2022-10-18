@@ -1,0 +1,55 @@
+/*css for new_article.php*/
+    body {
+      color: #000;
+    }
+      
+    .navbar-brand {
+      font-size: 25px;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+    }
+
+    .error {
+      color: #ff0000;
+    }
+
+    textarea {
+      height: 200px;
+    }
+
+    .btn-primary {
+      border-radius: 100px;
+      padding: 7px 70px;
+    }
+
+    .nav-link {
+      color: #000;
+      font-size: 17px;
+      margin: 0px 20px;
+    }
+
+    #user_profile {
+      display: block;
+      width: 150px;
+      height: 150px;
+      margin: auto;
+    }
+
+    .card {
+      border: 0;
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .card-link {
+      text-align: center;
+      text-decoration: none;
+    }
+    
+    form, h3, .error {
+      font-family: 'Raleway', sans-serif;
+    }
+
+    label {
+      font-weight: bold;
+    }
